@@ -1,0 +1,6 @@
+print(f'67 is {chr(67)}')
+print(f'111 is {chr(111)}')
+print(f'108 is {chr(108)}')
+print(f'33 is {chr(33)}')
+print(f'2 is {chr(2)}')
+print(f'1 is {chr(1)}')
