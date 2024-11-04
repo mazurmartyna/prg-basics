@@ -12,4 +12,4 @@ def input_real(message):
 
 def input_boolean(message):
     n= input(message)
-    return bool(n='y')
+    return bool(n=='y')
