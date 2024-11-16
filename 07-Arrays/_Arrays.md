@@ -499,7 +499,7 @@ stalj@uek.krakow.pl
    ```
  > **Hint: Don't forget to import the random module before using random.randint**
 
-1. An array contains integer numbers: 34,7,19,4,21,8. Create a program that calculates and prints the number of even values in the array. Use the ‘while’ loop statement.
+3. An array contains integer numbers: 34,7,19,4,21,8. Create a program that calculates and prints the number of even values in the array. Use the ‘while’ loop statement.
 
 1. An array contains natural numbers: 15, 8, 31, 47, 2, 19. Create a program that prints the contents of the array in reverse order. Use any loop statement. Sample result:
 
