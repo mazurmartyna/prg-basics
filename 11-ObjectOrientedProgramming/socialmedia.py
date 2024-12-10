@@ -9,14 +9,21 @@ class SocialMediaProfile:
     
     def display_timeline(self):
         print(self.username)
-        print(self.posts)
+        i=0
+        for item in self.posts:
+            i= i+1
+            print(i,end =  ". ")
+            print(item)
 
 def main():
-    user1 = SocialMediaProfile()
-    user1.username = "johndoe"
+    user1 = SocialMediaProfile("johndoe")
     
     user1.add_post("Hello, world!")
     user1.add_post("Had a great day at the park!")
     user1.add_post("What's up, Natalie? How are you?")
 
     user1.display_timeline()
+
+
+if __name__ == "__main__":
+    main()
