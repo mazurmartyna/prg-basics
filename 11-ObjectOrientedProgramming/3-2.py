@@ -6,8 +6,9 @@ class Song():
         self.year = year
 
     def __str__(self):
-        result = ("Performer: " end={self.performer}  "Title: "{self.title} \nAlbum: {self.album} \nYear: {self.album}")
-        return "Performer: " end={self.performer} \nTitle: {self.title} \nAlbum: {self.album} \nYear: {self.album}"
+        result = (f"Performer: {self.performer} \nTitle: {self.title} \nAlbum: {self.album} \nYear: {self.year}")
+        
+        return result
     
 song1 = Song("Ed Sheeran", "Hearts Don't Break Around Here", "Divide", 2017)
 song2 = Song("Queen", "Bohemian Rhapsody", "A Night at the Opera", 1975)
